@@ -1,11 +1,11 @@
 html {
-	background: url(../images/bg.jpg) no-repeat center left fixed; 
+	background: url(../Images/bg.jpg) no-repeat center left fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale')";
-  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../images/bg.jpg', sizingMethod='scale');
+  	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bg.jpg', sizingMethod='scale')";
+  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../Images/bg.jpg', sizingMethod='scale');
 }
 
 
@@ -67,7 +67,7 @@ hr.fancy {
 #imgCol {
 	height:606px;
 	width:529px;
-    background-image:url(../images/image0.jpg);
+    background-image:url(../Images/image0.jpg);
 	background-repeat: no-repeat;
 	background-position: top left;
 	float:left;

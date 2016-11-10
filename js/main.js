@@ -5,7 +5,7 @@ $( document ).ready(function() {
 	var illustration0 = {
 		year: 1859,
 		artist:"Uknown",
-		image:"images/image0.jpg",
+		image:"Images/image0.jpg",
 		top:60,
 		left:190,
 		bubbleWidth:210
@@ -13,7 +13,7 @@ $( document ).ready(function() {
 	var illustration1 = {
 		year:1910,
 		artist:"Thomas Hugh",
-		image:"images/image1.jpg",
+		image:"Images/image1.jpg",
 		top:60,
 		left:200,
 		bubbleWidth:190
@@ -22,7 +22,7 @@ $( document ).ready(function() {
 	var illustration2 = {
 		year:1860,
 		artist:"Mary Somebody",
-		image:"images/image2.jpg",
+		image:"Images/image2.jpg",
 		top:270,
 		left:300,
 		bubbleWidth:160
@@ -30,7 +30,7 @@ $( document ).ready(function() {
 	var illustration3 = {
 		year:1920,
 		artist:"Harry Clark",
-		image:"images/whiteface.jpg",
+		image:"Images/whiteface.jpg",
 		top:20,
 		left:200,
 		bubbleWidth:200
@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	var illustration4 = {
 		year:1919,
 		artist:"Arthur Rackham",
-		image:"images/risinggen.jpg",
+		image:"Images/risinggen.jpg",
 		top:30,
 		left:210,
 		bubbleWidth:200
