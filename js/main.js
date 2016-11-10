@@ -141,7 +141,7 @@ $( document ).ready(function() {
 			currentIllustration = collection[count];
 		}
 		else{
-			count=2;
+			count=5;
 			console.log("currentILlustration is" + count);
 			currentIllustration = collection[count];
 		}
