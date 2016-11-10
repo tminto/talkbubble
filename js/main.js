@@ -11,8 +11,8 @@ $( document ).ready(function() {
 		bubbleWidth:210
 	};
 	var illustration1 = {
-		year:1920,
-		artist:"Joe Somebody",
+		year:1910,
+		artist:"Thomas Hugh",
 		image:"images/image1.jpg",
 		top:60,
 		left:200,
@@ -27,9 +27,27 @@ $( document ).ready(function() {
 		left:300,
 		bubbleWidth:160
 	};
+	var illustration3 = {
+		year:1920,
+		artist:"Harry Clark",
+		image:"images/whiteface.jpg",
+		top:20,
+		left:200,
+		bubbleWidth:200
+	};
+	var illustration4 = {
+		year:1919,
+		artist:"Arthur Rackham",
+		image:"images/risinggen.jpg",
+		top:30,
+		left:210,
+		bubbleWidth:200
+	};
 	collection.push(illustration0);
 	collection.push(illustration1);
 	collection.push(illustration2);
+	collection.push(illustration3);
+	collection.push(illustration4);
 	console.log(collection[0]);
 
 	/*Set the initial image and caption to be the first one in the collection array*/
@@ -62,13 +80,13 @@ $( document ).ready(function() {
         }
     });
     /*On increasing or decreasing font size*/
-    $("#up").on("click", function(){
+    $("#up").on("click", function(event){
     	event.preventDefault();
     	console.log("the font size is " + fontSize);
        fontSize++;
        $(".bubble").css("font-size", fontSize);
     });
-    $("#down").on("click", function(){
+    $("#down").on("click", function(event){
     	event.preventDefault();
     	console.log("the font size is " + fontSize);
     	if (fontSize > 13){
@@ -103,7 +121,7 @@ $( document ).ready(function() {
 	var count=0;
 	console.log("count is initialized to " + count);
 	$("#next").on("click", function(){
-        if (count<2){
+        if (count<5){
 			count++;
 			console.log("currentILlustration is" + count);
 			currentIllustration = collection[count];
