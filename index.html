@@ -1,0 +1,82 @@
+<!DOCTYPE hml>
+<html lan="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caption This</title>
+<!--<link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky|Limelight|Press+Start+2P|Cookie|Homemade+Apple|Prata" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/CaptionThis.css">
+<script src="//use.edgefonts.net/sofia;mr-bedfort.js""></script> 
+</head>
+<body>
+<div class="outer">
+	<nav><img src="images/title.png" width="409" height="60"></nav>
+ 	<div class="slider clearfix">
+ 		<div id="leftCol">
+ 			<div id="imgCol">
+
+ 				<div class="talkBubble">
+ 					<div class="bubble font1">
+ 					</div>
+ 					<div class ="triangle-down">
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="captionInfo">
+ 			</div>
+ 		</div>
+		<div class="formCOl">
+			<form>
+				<!--BUBLLE TEXT INPUT-->
+				<div class="labelContainer">
+						<label for="userText" class="userTextLabel"><h2>Add Some Dialogue</h2></label>
+				</div>
+				<div class="userText">
+						<p><textarea name="userText" class="userTextBox"></textarea></p>
+				</div>
+				<!--RADIO BUTTON-->
+				<p><h2>Choose A Font:</h2></p>
+				<p>
+					<input type="radio" name="font" value="font1" class="fonts" id="font1" checked>
+					<label for="font1" class="font1">Cookie</label>
+
+				</p>
+				<p>
+	  				<input type="radio" name="font" value="font2" class="fonts" id="font2"> 
+	  				<label for="font2" class="font2">Limelight</label>
+
+  				</p>
+  				<p>
+  					<input type="radio" name="font" value="font3" class="fonts" id="font3"> 
+					<label for="font3" class="font3">Press Start</label>
+  				</p>
+  			</form>
+  			<div class="borderContainer">
+				<hr class="fancy">
+			</div>
+  			<div class="fontSizeLabel"><h2>Adjust Font Size:</h2></div>
+
+			<div class="fontButtons">
+				<!--FONT SIZE BUTTON-->
+			<div id="minus"><button id="down">-</button></div>
+			<div id="plus"><button id="up">+</button></div>
+			</div>
+
+			<div class="borderContainer" style="margin-top:25px;">
+				<hr class="fancy">
+			</div>
+			<div class="nextLinks">
+				 <div id="next"><a href="#">Next Scene</a></div> <div id="previous"><a href="#">Previous Scene</a></div>  
+			</div>
+		</div>
+ 	</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
