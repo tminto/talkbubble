@@ -121,6 +121,7 @@ hr.fancy {
 	font-size:40px;
 	word-wrap: break-word;
 	text-align: center;
+	overflow:hidden;
 
   }
 .triangle-down {
