@@ -1,18 +1,12 @@
-html {
-	background: url(../Images/bg.jpg) no-repeat center left fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../Images/bg.jpg', sizingMethod='scale')";
-  	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.../Images/bg.jpg', sizingMethod='scale');
-}
+
 
 
 body {
 	margin-top:35px;
- 	font-family: "Times New Roman", Times, serif;	font-size:16px;
+ 	font-family:helvetica, arials, sans-serif;
+	font-size:16px;
 	color:#4a4a4a;
+	background-color:#fff;
 }
 .clearfix:after {
     content:"";
@@ -27,12 +21,12 @@ body {
 
 
 
-nav, .slider {
+header, .slider {
 	width:100%;
 	float:left;
 	margin:0px auto;
 }
-nav {
+header {
 	padding:0px;
 	margin-bottom:40px;
 	text-align: center;
@@ -46,9 +40,9 @@ h1 {
 }
 h2 {
 	font-weight:bold;
-	font-size:16px;
-	font-family:"Times New Roman", Times, serif;
-    color:#466C69;
+	font-size:18px;
+	font-family:helvetica, arials, sans-serif;
+    color:#7e83be;
 }
 hr.fancy {
     height: 30px;
@@ -72,7 +66,7 @@ hr.fancy {
 	background-position: top left;
 	float:left;
 	position:relative;
-	border:solid 6px #466C69;
+	border:solid 6px #666;
 
 }
 .captionInfo{
@@ -102,6 +96,7 @@ hr.fancy {
 	float:left;
 	width:100%;
 	text-align: right;
+	margin-top:15px;
 }
 /*TALK BUBBLE*/
 .talkBubble {
@@ -186,12 +181,18 @@ label.font3 {
 	width:120px;
 	height:20px;
 	padding:8px;
-	background:#E5BF45;
+	background:#7e83be;
 	color:#fff;
 	border-radius: 6px;
 	text-decoration: none;
 	text-align: center;
+	
+}
+#next {
 	float:right;
+}
+#previous {
+	float:left;
 }
 #next a, #previous a {
 	color:#fff;
@@ -199,7 +200,7 @@ label.font3 {
 	text-align: center;
 }
 #next:hover, #previous:hover {
-	background:#5F9E8D;
+	background:#6d74c6;
 }
 #previous  {
 	margin-right:20px;
